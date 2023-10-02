@@ -1,0 +1,51 @@
+* {
+	font-family: cambria;	
+}
+
+.Formm {
+	background-color: white;
+	max-width: 50%;
+	position: relative;
+	top: 120px;
+	height: 300px;
+	margin: 0 auto;
+	color: #865DFF;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 2px 2px 25px black;
+}
+.Login {
+	color: #865DFF;	
+}
+
+.botao {
+	background-color: #865DFF;
+	color: white;
+	border: none;
+	height: 35px;
+	width: 150px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;	
+}
+.botao:hover{
+	transition: 2s;
+	color: #865DFF;
+	background-color: white;
+	border: 1px solid #865DFF;	
+
+}
+input {
+	border: 1px solid #865DFF;
+	height: 25px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: roboto;
+		
+}
+input:focus {
+	box-shadow: 0 0 0 0;
+	border: 1px solid #865DFF;
+	outline: 0;
+}
